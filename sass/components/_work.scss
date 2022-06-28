@@ -1,0 +1,106 @@
+.work {
+    padding-top: 94px ;
+    padding-bottom: 94px;
+    background-color: #F5F4FA;
+  }
+  
+  .work-title {
+    margin-bottom: 50px;
+  
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  
+  .work-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .work-list__item {
+    display: block;
+    filter: drop-shadow(0px 4px 4px 
+            rgba(0, 0, 0, 0.25));
+    text-align: center;
+    width: 270px;
+    margin: 0 0 0;
+  }
+  
+  .work-list__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  .work-list__headins {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+                0px 1px 1px rgba(0, 0, 0, 0.14), 
+                0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  
+  
+    border: none;
+    padding-top: 30px;
+    background-color: var(--complementary-text-color);
+    padding-bottom: 30px;
+  }
+  
+  .work-list__heading {
+    margin-bottom: 10px;
+    margin-bottom: var(--typical-gap);
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+  }
+  
+  .work-list__after-heading {
+    color: var(--title-text-color);
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  .social-list {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-list__item {
+    box-sizing: border-box;
+    color: #AFB1B8;
+  }
+  
+  .social-list__link:hover,
+  .social-list__link:focus {
+    background-color: #2196f3;
+    fill: white;
+  }
+  
+  .social-list__link {
+    fill: #AFB1B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .social-list__item:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .social-list__icon {
+  color: currentColor;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }

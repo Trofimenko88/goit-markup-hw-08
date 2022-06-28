@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="WebStudio" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+<link rel="stylesheet" href="./css/styles.css">
+<link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container main-header">
+            <a class="header__prelogo" href="/index.html"> Web<span class="header__logo">Studio</span> 
+            </a>
+            <ul class="menu-list list">
+                <li class="menu-list__item"><a class="menu-list__link link " href="./index.html" >Студия</a></li>
+                <li class="menu-list__item"><a class="menu-list__link link current link" href="./portfolio.html" >Портфолио</a></li>
+                <li class="menu-list__item"><a class="menu-list__link link" href="#" >Контакты</a></li>
+            </ul>
+            <ul class="contact-list">
+                <li class="contact-list__item">
+                    <a href="mailto:info@devstudio.com" class="contact-list__link link">
+                    <!-- Ссылка на адрес электронной почты  -->
+                    <svg class="contact-list__icon" width="16px" height="12px">
+                        <use href="./images/symbol-defs.svg#icon-mail">
+                        </use>
+                    </svg>  
+                    info@devstudio.com 
+                    </a>
+                </li>
+                <li class="contact-list__item">
+                            <!-- Ссылка на телефонный номер -->
+                            <a href="tel:+380961111111" class="contact-list__link link">
+                                <svg class="contact-list__icon" width="10px" height="16px">
+                                    <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                                </svg>
+                                +38 096 111 11 11
+                            </a>
+                </li>            
+            </ul>
+        </div>
+    </header>
+    <main>
+        <!--Разделы-->
+        <section class="filter">
+            <div class="container filter-btn">
+                <h1 class="visually-hidden">Наши работы</h1>
+            <!--Фильтр кнопок-->
+                <ul class="filter-list">
+                    <li class="filter-list__item"><button class="filter-list__btn" type="button">Все</button></li>
+                    <li class="filter-list__item"><button class="filter-list__btn" type="button">Веб-сайты</button></li>
+                    <li class="filter-list__item"><button class="filter-list__btn" type="button">Приложения</button></li>
+                    <li class="filter-list__item"><button class="filter-list__btn" type="button">Дизайн</button></li>
+                    <li class="filter-list__item"><button class="filter-list__btn" type="button">Маркетинг</button></li>        
+                </ul>
+            <!--<section class="about"> </section>-->
+                <ul class="about-list"> 
+                    <li class="about-list__item">
+                        <a href class="about-list__link link">
+                            <div class="about-list_card">
+                                <img src="./images/project-1.jpg" alt="анфас менеджеров" width="370" height="294" >
+                            <p class="card-about__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                            </div>
+                            <div class="about-section">
+                                <h3 class="about-section__title">Технокряк</h3>
+                                <p class="about-section__pre-title">Веб-сайт</p>
+                            </div>
+                        </a>
+                    </li>
+                        <li class="about-list__item"> 
+                            <a href="" class="about-list__link link">
+                                <div class="about-list_card">
+                                    <img src="./images/project-2.jpg" alt="два баскетболиста с мячом" width="370" height="294" >
+                                    <p class="card-about__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                                </div>                                    
+                                <div class="about-section">     
+                                    <h3 class="about-section__title">Постер New Orlean vs Golden Star</h3>
+                                    <p class="about-section__pre-title">Дизайн</p>
+                                </div>  
+                            </a>             
+                        </li>
+                        <li class="about-list__item"> 
+                            <a href="" class="about-list__link link">
+                                <div class="about-list_card">
+                                    <img src="./images/project-3.jpg" alt="логотип ресторана" width="370" height="294" >
+                                    <p class="card-about__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                                </div>                                
+                                <div class="about-section">
+                                    <h3 class="about-section__title">Ресторан Seafood</h3>
+                                    <p class="about-section__pre-title">Приложение</p>
+                                </div>
+                            </a>
+                       </li>                
+                        <li class="about-list__item"> 
+                            <a href="" class="about-list__link link">
+                                <div class="about-list_card">
+                                    <img src="./images/project-4.jpg" alt="наушники" width="370" height="294"  >                               
+                                    <p class="card-about__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                                </div>                                    
+                                <div class="about-section">
+                                    <h3 class="about-section__title">Проект Prime</h3>
+                                    <p class="about-section__pre-title">Маркетинг</p>
+                                </div>   
+                            </a>                                                  
+                        </li>
+                        <li class="about-list__item"> 
+                            <a href="" class="about-list__link link">
+                                <div class="about-list_card">
+                                    <img src="./images/project-5.jpg" alt="две коробки" width="370"  height="294" >                                
+                                    <p class="card-about__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                                </div>                                   
+                                <div class="about-section">
+                                    <h3 class="about-section__title">Проект Boxes</h3>
+                                    <p class="about-section__pre-title">Приложение</p>
+                                </div>
+                            </a> 
+                        </li>
+                        <li class="about-list__item">                             
+                            <a href="" class="about-list__link link">
+                                <div class="about-list_card">
+                                    <img src="./images/project-6.jpg" alt="компьютер моноблок" width="370" height="294"  > 
+                                    <p class="card-about__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                                </div>                                
+                                <div class="about-section">
+                                    <h3 class="about-section__title">Inspiration has no Borders</h3>
+                                    <p class="about-section__pre-title">Веб-сайт</p>
+                                </div> 
+                            </a>   
+                        </li>
+                    <li class="about-list__item"> 
+                        <a href="" class="about-list__link link">
+                            <div class="about-list_card">
+                                <img src="./images/project-7.jpg" alt="книга в развернутом виде" width="370" height="294"  >                             
+                                <p class="card-about__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                            </div>                              
+                            <div class="about-section">
+                                <h3 class="about-section__title">Издание Limited Edition</h3>
+                                <p class="about-section__pre-title">Дизайн</p>  
+                            </div>
+                        </a>
+                    </li>
+                        <li class="about-list__item"> 
+                            <a href="" class="about-list__link link">
+                                <div class="about-list_card">
+                                    <img src="./images/project-8.jpg" alt="ярлык с названием проекта" width="370" height="294"  >                                                                     
+                                    <p class="card-about__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                                </div>                                
+                                <div class="about-section">
+                                    <h3 class="about-section__title">Проект LAB</h3>
+                                    <p class="about-section__pre-title">Маркетинг</p> 
+                                </div> 
+                            </a>       
+                        </li>
+                        <li class="about-list__item"> 
+                            <a href="" class="about-list__link link">
+                                <div class="about-list_card">
+                                    <img src="./images/project-9.jpg" alt="руки печатают на ноутбуке" width="370" height="294"  >
+                                    <p class="card-about__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                                </div>                                
+                                <div class="about-section">
+                                    <h3 class="about-section__title">Growing Business</h3>
+                                    <p class="about-section__pre-title">Приложение</p>
+                                </div> 
+                            </a>         
+                        </li>                  
+                </ul>    
+            </div>
+        </section>    
+    </main>
+    <footer class="footer-page">
+        <div class="container footer-page">
+            <div>
+                <a href="./index.html" class="footer__prelogo"> Web<span class="footer__logo">Studio</span> 
+                </a>
+            <!--Адрес расположения-->
+            <address class="footer-adress">
+                <ul class="footer-nav">
+                    <li class="footer-nav__item">
+                       <a href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB%D1%8C%D0%B2%D0%B0%D1%80+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858" target="blank" class="geolocation"> 
+                        г. Киев, пр-т Леси Украинки, 26
+                       </a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a href="mailto:info@example.com" class="footer-nav__mail link"> info@example.com
+                        </a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a href="tel:+380991111111" class="footer-nav__tel link" >+38 099 111 11 11 
+                        </a>
+                    </li> 
+                </ul>
+            </address>
+            </div>   
+        <div class="footer-social">
+            <h2 class="footer-title">присоединяйтесь</h2>
+           <ul class="footer-social-list">
+            <li class="footer-social-list__item">
+                <a href class="footer-social-list__button">
+                    <svg class="footer-social-list__icon" width="20px" height="20px">
+                        <use href="./images/symbol-defs.svg#icon-instagram-2"></use> 
+                    </svg>  
+                </a>                            
+            </li>                            
+            <li class="footer-social-list__item">
+                <a href class="footer-social-list__button">
+                    <svg class="footer-social-list__icon" width="20px" height="20px">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use> 
+                    </svg>  
+                </a>
+            </li>     
+            <li class="footer-social-list__item">
+               <a href class="footer-social-list__button">
+                <svg class="footer-social-list__icon" width="20px" height="20px">
+                    <use href="./images/symbol-defs.svg#icon-facebook"></use> 
+                </svg>   
+               </a>
+            </li>  
+            <li class="footer-social-list__item">
+                <a href class="footer-social-list__button">
+                    <svg class="footer-social-list__icon" width="20px" height="20px">
+                        <use href="./images/symbol-defs.svg#icon-linkedin"></use> 
+                    </svg>   
+                </a>  
+            </li>    
+           </ul>
+        </div> 
+        <form class="footer-mail-form">
+            <h3 class="footer-title-form">Подпишитесь на рассылку</h3>
+            <input type="email" name="email" class="footer__form" placeholder="E-mail">
+            <button type="submit" class="footer__button">
+                Подписаться
+                      <svg class="footer__icon" width="24px" height="24px">
+                          <use href="./images/symbol-defs.svg#icon-icon-send"></use>
+                      </svg>                
+            </button>       
+        </form>
+        </div>
+            
+    </footer>
+            <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                    <button type="button" class="button-modal" data-modal-close>
+                        <svg class="button-close" width="30px" height="30px">
+                            <use href="./images/symbol-defs.svg#icon-close-black-18dp"></use>
+                        </svg>
+                    </button>
+                    <h3 class="modal-text">Оставьте свои данные, мы вам перезвоним</h3>
+                    <form class="modal-form">
+                        <div class="form">
+                            <label class="name-modal">
+                                Имя
+                                <input type="text" class="modal-input" name="user-name">
+                                <svg class="icon-modal" width="18px" height="18px">
+                                    <use href="./images/symbol-defs.svg#icon-person-black-18dp-1">
+                                    </use>
+                                </svg>
+                            </label>
+                        </div>
+                        <div class="form">
+                            <label class="name-modal">
+                                Телефон
+                                <input type="tel" class="modal-input" name="user-tel">  
+                                <svg class="icon-modal" width="18px" height="18px">
+                                    <use href="./images/symbol-defs.svg#icon-phone-black-18dp-1">
+                                    </use>
+                                </svg>                                                    
+                            </label>
+                        </div>
+                        <div class="form">
+                            <label class="name-modal">
+                                Почта
+                                <input type="email" class="modal-input" name="user-mail">
+                                <svg class="icon-modal" width="18px" height="18px">
+                                    <use href="./images/symbol-defs.svg#icon-email-black-18dp-1">
+                                    </use>
+                                </svg>
+                            </label>
+                        </div>
+                        <div class="form">
+                            <label for="user-text" class="name-modal">
+                                Комментарий
+                            </label>
+                            <textarea class="modal-coments" placeholder="Введите текст" name="user-text" id="user-text"></textarea>            
+                        </div>
+                        <div class="form-ch">
+                            <label class="modal-check">
+                                <input type="checkbox" name="consent" class="inp-check" />
+                                <span class="mod-chec">
+                                </span>
+                                <span class="modal-consent">Соглашаюсь с рассылкой и принимаю
+                                <a href="" class="consent-link link">Условия договора
+                                </a>
+                                 </span>
+                                
+                            </label>
+                        </div>                       
+                        <button type="submit" class="modal-button"> Отправить                             
+                        </button>
+                    </form>
+                </div>
+            </div>
+</body>
+</html>

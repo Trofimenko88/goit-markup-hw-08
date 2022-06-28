@@ -1,0 +1,53 @@
+/*Text*/
+
+.text {
+    padding: 94px 0  94px;
+  }
+  
+  .text-list {
+    display: flex;
+    align-items: center;
+  }
+  
+  .text-list__item:not(:last-child) {
+    margin-right: 30px; 
+  }
+  
+  .text-list__peculiarities {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-right: 10px;
+    fill: var(--primary-text-color);
+  }
+  
+  .text-list__peculiarities-icon {
+    fill: currentColor;
+    width: 70px;
+    height: 70px;
+  }
+  
+  .text-list__heading {
+    margin-bottom: var(--typical-gap);
+    color: var(--primary-text-color);
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  
+  .text-list__after-heading {
+    color: var(--title-text-color);
+  
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+    letter-spacing: 0.03em;
+  }
