@@ -1,36 +1,29 @@
 .work {
-    padding-top: 94px ;
-    padding-bottom: 94px;
+    padding-top: 60px ;
+    padding-bottom: 60px;
     background-color: #F5F4FA;
   }
   
   .work-title {
-    margin-bottom: 50px;
-  
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
+    font-size: 28px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-  }
+    margin-bottom: 30px;
+}
   
   .work-list {
     display: flex;
     justify-content: space-between;
   }
-  
+
   .work-list__item {
-    display: block;
-    filter: drop-shadow(0px 4px 4px 
-            rgba(0, 0, 0, 0.25));
-    text-align: center;
-    width: 270px;
-    margin: 0 0 0;
+    background-color: var(--footer-logo-color);
+    -webkit-box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+    border-radius: 0px 0px 4px 4px;
   }
   
-  .work-list__item:not(:last-child) {
-    margin-right: 30px;
-  }
   
   .work-list__headins {
     background: #FFFFFF;
@@ -47,15 +40,17 @@
   }
   
   .work-list__heading {
-    margin-bottom: 10px;
-    margin-bottom: var(--typical-gap);
-    color: var(--primary-text-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    /* identical to box height */
+    color: black;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
-  }
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+}
   
   .work-list__after-heading {
     color: var(--title-text-color);
@@ -103,4 +98,21 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  @media screen and (min-width: 768px) {
+    .work-list {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin: -15px;
+  }
+  .work-list__item {
+    width: calc(100% / 2 - 30px);
+    margin: 15px;
+  }
   }
