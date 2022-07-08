@@ -6,62 +6,55 @@
   padding-left: 15px;
   padding-right: 15px;
 }
-
-@media screen and (min-width: 320px) and (max-width: 480px) {
-  
-  .hero {
-    padding: 118px 0;
-    height: 400px;
+@media screen and (min-width: 480px)  {
+  .container {
+    width: 480px  
   }
+}
+/*
 .work-list__item:not(:last-child) {
     margin-bottom: 30px;    
 }
-
+*/
 @media not all, (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi), 
 (min-resolution: 2dppx)
 {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, 
-    from(rgba(47,48,58,0.4)), to(rgba(47,48,58,0.4))),
+    background-image: (rgba(47,48,58,0.4)),
     url(/images/mobile/hero-480-px-mobile-2x.jpg);
-    background-image: linear-gradient(to right, rgba(47,48,58,0.4), 
-    rgba(47,48,58,0.4)),url(/images/mobile/hero-480-px-mobile-2x.jpg);
+    background-image:rgba(47,48,58,0.4),url(/images/mobile/hero-480-px-mobile-2x.jpg);
 }
 }
-}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .hero {
+    padding: 118px 0;
+    height: 400px;
+  }
+ }
+
+
 
 @media screen and (min-width: 768px)  {
 .container {
   width: 768px  
 }
-
-.page-header {
-  height: 80px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+.header__prelogo {
+  color: #2196f3;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.header__logo {
+  color: #000000;
 }
 .menu-open-btn {
   display: none;
 }
     
-.page-header  {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  height: 80px;
-  align-items: center;
-  }
 
 .header__prelogo {
   font-weight: 700;
@@ -79,9 +72,24 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .features {
-      width: 1200px;
+  .container {
+    width: 1200px  
   }
+  
+  /*logo*/
+  .header__prelogo {
+    color: #2196f3;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+  }
+  .header__logo {
+    color: #000000;
+  }
+ 
   }
 
 

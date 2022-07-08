@@ -1,106 +1,47 @@
 /*header*/
-@media screen and (min-width: 768px) {
-  .main-header {
-    height: 80px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-.contact-list__link {
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 1.16;
-  letter-spacing: 0.02em;
-  display: -webkit-box;
-  display: -ms-flexbox;
+.header {
+  border-bottom: 1px solid #ECECEC;
   display: flex;
 }
-}
+ /*contact info*/
 
-.header {
-    border-bottom: 1px solid #ECECEC;
-    display: flex;
-  }
-  
-
-/*
-  .main-header {
-    align-items: center;  
-  }
-  */
-  /*logo*/
-  
-  .header__prelogo {
-    color: #2196f3;
-  
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-  }
-  .header__logo {
-    color: #000000;
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-  }
-  .mob-menu .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    height: 100%;
-}
-  
-  /*contact info*/
-
-.contact-list {
+ .contact-list {
   display: none;
 }
 
-@media screen and (min-width: 768px)  {
- .contact-list {
+  
+  .mob-menu .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.header__prelogo {
+  color: #2196f3;
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
-  margin-left: 84px;
+  justify-content: center;
 }
-.contact-list__item {
-  margin-bottom: 10px;
+.header__logo {
+  color: #000000;
 }
- }
 
-
+/*
 .contact-list__item {
   margin-right: 30px;  
 }
-
+*/
 .contact-list__item:focus,
 .contact-list__item:hover {
   color: #2196f3;
 }
+
 
 .contact-list__link {
   font-family: Roboto;
@@ -112,7 +53,6 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .contact-list__icon {
   margin-right: 10px;
   border: 0;
@@ -128,11 +68,10 @@
   display: block;
   margin-left: auto;
 }
-@media screen and (min-width: 768px)  {
-  .menu-open-btn {
-    display: none;
-  }
-}
+
+
+
+
 
 .mob-menu-bottom {
   margin-top: auto;
@@ -142,12 +81,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   height: 100%;
 }
@@ -162,26 +96,6 @@
   margin-bottom: 64px;
   background-color: #FFFFFF;
 }
-/*
-.is-hidden {
-  opacity: 0;
-  pointer-events: none;
-  visibility: hidden;
-}
-*/
-
-.text {
-  padding: 60px;
- }
-
-.text-list__item:not(:last-child) {
-  margin-right: 0;
-}
-
-
-
-
-
 .mob-auth-nav {
 margin-bottom: 64px;
 }
@@ -214,8 +128,6 @@ padding-bottom: 32px;
 display: -webkit-box;
 display: -ms-flexbox;
 display: flex;
--webkit-box-align: center;
--ms-flex-align: center;
 align-items: center;
 vertical-align: middle;
 padding: 0;
@@ -224,7 +136,6 @@ padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 .mob-soc__item:not(:last-child) {
@@ -241,8 +152,7 @@ width: 1px;
 height: 22px;
 background-color: rgba(33,33,33,0.2);
 }
-.mob-auth-nav__tel,
-.mob-nav__link--active {
+.mob-auth-nav__tel--active {
 color: #2196f3;
 }
 .mob-auth-nav__item:not(:last-child) {
@@ -281,3 +191,62 @@ color: #2196f3;
   flex-wrap: wrap;
 }
 
+@media screen and (min-width: 768px) {
+   
+  .main-header {
+    height: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+  }
+
+@media screen and (min-width: 768px)  {
+ .contact-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-left: 84px;
+}
+.contact-list__item {
+  margin-bottom: 10px;
+}
+ }
+ .contact-list__link {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: 0.02em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.menu-open-btn {
+  display: none;
+}
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    height: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+  }
+  .contact-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    align-items: center;
+}
+.contact-list__item {
+  margin-bottom: 0;
+  margin-right: 30px;
+}
+}

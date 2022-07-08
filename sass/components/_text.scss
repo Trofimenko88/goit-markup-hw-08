@@ -4,15 +4,21 @@
     padding: 60px 0;
   }
 
+
   
   .text-list {
     list-style: none;
     margin: 0;
     padding: 0;
   }
-  
+  .text-list__item {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+  }
+
   .text-list__item:not(:last-child) {
     margin-bottom: 30px; 
+   
   }
   
   .text-list__peculiarities {
@@ -72,3 +78,16 @@
   text-align: start;
 }
   }
+  @media screen and (min-width: 1200px) {
+    .text {
+      padding-top: 94px;
+      padding-bottom: 94px;
+      justify-content: center;
+  }
+  .text-list {
+    display: flex;
+  }
+  .text-list__item {
+    width: calc(100% / 4 - 30px);
+  }
+}

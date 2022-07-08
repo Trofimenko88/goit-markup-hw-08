@@ -1,6 +1,13 @@
 .customers {
     padding: 60px 0;
   }
+  @media screen and (min-width: 768px) {
+    .customers {
+      padding-top: 60px;
+      padding-bottom: 60px;
+  }
+  }
+
   
   .customers-title {
     font-size: 28px;
@@ -54,3 +61,27 @@
     height: 60px;
     fill: currentColor;
   }
+  @media screen and (min-width: 1200px) {
+.customers {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.customers-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+.customers-list {
+  display: flex;
+}
+.customers-list__item {
+  width: 170px;
+}
+.customers-list__link {
+  width: 170px;
+}
+}

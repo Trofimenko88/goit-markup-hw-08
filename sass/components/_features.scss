@@ -4,6 +4,12 @@
     padding-bottom: 94px ;
     display: none;
   }
+  @media screen and (min-width: 1200px) {
+    .features {
+      display: flex;
+    }
+  }
+    
   
   .features-title {
     color: var(--primary-text-color);
