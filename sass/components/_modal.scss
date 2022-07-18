@@ -26,11 +26,6 @@
     }
   }
   
-  .is-hidden {
-    opacity: 0;
-    pointer-events: none;
-    visibility: hidden;
-  }
   
   @media screen and (min-width: 1200px)  {
     .modal {
@@ -200,6 +195,7 @@
     color: var(--complementary-text-color);
     background: var(--accent-color);
     display: block;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .modal__button:focus {

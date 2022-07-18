@@ -6,97 +6,21 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+
+
 @media screen and (min-width: 480px)  {
   .container {
     width: 480px  
   }
 }
-/*
-.work-list__item:not(:last-child) {
-    margin-bottom: 30px;    
-}
-*/
-@media not all, (-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi), 
-(min-resolution: 2dppx)
-{
-  .hero {
-    background-image: (rgba(47,48,58,0.4)),
-    url(/images/mobile/hero-480-px-mobile-2x.jpg);
-    background-image:rgba(47,48,58,0.4),url(/images/mobile/hero-480-px-mobile-2x.jpg);
-}
-}
-@media screen and (min-width: 320px) and (max-width: 480px) {
-  .hero {
-    padding: 118px 0;
-    height: 400px;
-  }
- }
-
-
 
 @media screen and (min-width: 768px)  {
 .container {
   width: 768px  
+} 
 }
-.header__prelogo {
-  color: #2196f3;
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-}
-.header__logo {
-  color: #000000;
-}
-.menu-open-btn {
-  display: none;
-}
-    
-
-.header__prelogo {
-  font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  font-size: 24px;
-}
-
-.menu-list {
-  display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-left: 88px;
-}
-}
-
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px  
-  }
-  
-  /*logo*/
-  .header__prelogo {
-    color: #2196f3;
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-  }
-  .header__logo {
-    color: #000000;
-  }
- 
-  }
-
-
-
-
-
-
-
-
-
+}
+}
