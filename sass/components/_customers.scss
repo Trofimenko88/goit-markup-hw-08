@@ -19,8 +19,6 @@
   
   .customers-list__item {
     margin: 15px;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     width: 210px;
   }
@@ -66,8 +64,6 @@
 .customers {
     padding-top: 94px;
     padding-bottom: 94px;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
 }
 .customers-list__item  {
@@ -85,5 +81,4 @@
 .customers-list .customers-list__link {
   width: 170px;
 }
-
   }
