@@ -925,8 +925,9 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    width: 100%;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/hero-desk.jpg);
+    max-width: 1600px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/desktop/hero-desk.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/desktop/hero-desk.jpg);
   }
   .hero__title {
     font-weight: 900;
@@ -938,6 +939,8 @@ body {
   .hero {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/desktop/hero-desk-2x.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/desktop/hero-desk-2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 /*Фильтр кнопок*/
