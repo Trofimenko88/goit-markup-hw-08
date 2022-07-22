@@ -58,6 +58,9 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.auth-nav__link:hover {
+  color: var(--accent-color);
+}
 
 .footer-soc__list {
   display: flex;
@@ -77,6 +80,10 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-soc__link:hover, 
+.footer-soc__link:focus {
+  background-color: var(--accent-color);
 }
 .footer-soc__icon {
   fill: #ffffff;

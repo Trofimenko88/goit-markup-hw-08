@@ -1501,6 +1501,10 @@ body {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.auth-nav__link:hover {
+  color: var(--accent-color);
+}
+
 .footer-soc__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1534,6 +1538,11 @@ body {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-soc__link:hover,
+.footer-soc__link:focus {
+  background-color: var(--accent-color);
 }
 
 .footer-soc__icon {
