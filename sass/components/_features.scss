@@ -54,7 +54,7 @@
     .hero {
       background-image: -webkit-gradient(linear, left top, right top, 
       from(rgba(47,48,58,0.4)), to(rgba(47,48,58,0.4))),
-      url(/images/tablet/hero-tablet.jpg);
+      url(../images/tablet/hero-tablet.jpg);
        }
     }
     
@@ -63,14 +63,14 @@
     .hero {
       background-image: -webkit-gradient(linear, left top, right top, 
       from(rgba(47,48,58,0.4)), to(rgba(47,48,58,0.4))),
-      url(/images/tablet/hero-tablet-2x.jpg);
+      url(../images/tablet/hero-tablet-2x.jpg);
   }
   }  
   @media screen and (min-width: 1200px) {
     .hero {
       max-width: 1600px;
       background-image: linear-gradient(to right, rgba(47,48,58,0.4),
-      rgba(47,48,58,0.4)),url(/images/desktop/hero-desk.jpg); 
+      rgba(47,48,58,0.4)),url(../images/desktop/hero-desk.jpg); 
      }
   .hero__title {
     font-weight: 900;
@@ -83,7 +83,7 @@ screen and (min-width: 1200px) and (min-resolution: 2dppx)
  {
     .hero {
       background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url(/webstudio-version2.1copy/hero-desk-2x.jpg);
+      url(../images/desktop/hero-desk-2x.jpg);
       background-repeat: no-repeat;
       background-size: cover;
   }
