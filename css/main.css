@@ -329,14 +329,14 @@ a {
 }
 
 .menu-close-btn {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  background-color: transparent;
+  position: fixed;
+  top: 10px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
   border: none;
-  display: block;
-  margin-left: auto;
-  margin-bottom: 9px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url(../images/close_40px.png);
 }
 
 .text-list {
