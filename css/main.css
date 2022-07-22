@@ -1141,6 +1141,11 @@ body {
     margin-bottom: 0;
   }
 }
+@media screen and (min-width: 1200px) {
+  .about-list__link {
+    width: 370px;
+  }
+}
 .work {
   padding-top: 60px;
   padding-bottom: 60px;
